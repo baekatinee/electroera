@@ -1,0 +1,40 @@
+html{
+	box-sizing: border-box; 
+}
+*,
+*::before,
+*::after{
+   box-sizing: inherit;
+}
+body{
+   font-size: 14px;
+   background: url(../img/bg.png) center no-repeat;
+   background-size: cover;
+   background-color: rgba(39, 39, 39, 1);
+   font-family: 'Inter',sans-serif;
+   font-weight: 400;
+   color: #F4F4F6;
+}
+img{
+   display: block;
+}
+ul,
+li{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+p{
+   margin: 0;
+}
+a{
+   text-decoration: none;
+   cursor: pointer;
+   color: #F4F4F6;
+}
+.container{
+   margin: 0 auto;
+   max-width: 1280px;
+   padding: 0 15px;
+}
+
